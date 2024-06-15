@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  background-color: #F6D9DD;
+  
+  
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px !important;
+    
+
+}
+.nav .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.nav .icon img{
+    width: 40px;
+}
+.nav .icon h3{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 25px;
+
+}
+.menu ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px !important;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100vw;
+
+}
+.head1{
+    width: 50%;
+}
+.head1 h2{
+    font-weight: 600;
+}
+.head1 h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+
+.header .list{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+.list :nth-child(1),
+.list :nth-child(2),
+.list :nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.header .list img {
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+.header .list h5{
+    font-weight: 800;
+    font-size: 14px;
+    color: #ff4700;
+}
+
+.shape{
+    width: 100%;
+}
+.head2{
+    width: 50%;
+    text-align: end;
+}
+.head2 img{
+    width: 565px;
+}
+.shape img{
+    width: 200px;
+}
+.header .shape1 {
+    text-align: center;
+    padding-right: 21rem;
+  }
+.header .shape2 {
+    text-align: end;
+    padding-right: 26rem;
+}
+
+/*bagian 1*/
+
+.bagian1{
+    padding: 30px 50px;
+    padding-top: 80px;
+
+    height: 80vh;
+}
+.bag1head{
+    text-align: center;
+}
+.bag1head h2{
+    font-weight: 600;
+}
+.bag1head h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+
+.bagian1 .listbag1 > div {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+.listbag1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.listbag1 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bagian1 .listbag1 img {
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.bagian1 .listbag1 h5 {
+    font-weight: 800;
+    font-size: 18px;
+    color: #ff4700;
+}
+.bagian1 .listbag1 p {
+  font-size: 10px;
+}
+
+/* bagian2 */
+.bagian2{
+    padding: 30px 50px;
+    height: 100vh;
+}
+.bag2head{
+    text-align: center;
+}
+.bag2head h2{
+    font-weight: 600;
+}
+.bag2head h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+.bag2isi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.bag2isiimg img{
+    width: 450px;
+}
+.bagian2 .listbag2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.bagian2 .listbag2 img {
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+.bagian2 .listbag2 h5 {
+    font-weight: 800;
+    font-size: 18px;
+    color: #ff4700;
+}
+.bagian2 p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*bagian 3 */
+.bagian3{
+    padding: 30px 50px;
+    height: 100vh;
+}
+.bag3head{
+    text-align: center;
+}
+.bag3head h2{
+    font-weight: 600;
+}
+.bag3head h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+.bag3isi{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+.bag3card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.bag3card img{
+    width: 350px;
+}
+.bag3card h5{
+    font-weight: 800;
+    font-size: 14px;
+    color: #ff4700;
+}
+
+/*bagian 4*/
+.bagian4{
+    height: 100vh;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bag4isi img{
+    width: 565px;
+}
+.bag4head h2{
+    font-weight: 600;
+}
+.bag4head h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+
+.bag4head a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 55px;
+    border: 1px solid black;
+    background-color: #ff4700;
+    box-shadow: 3px 3px 0px black;
+}
+.bag4head a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 0px #ff4700;
+
+}
+
+/*bagian5*/
+.bagian5{
+    padding: 30px 50px;
+    height: 100vh;
+}
+.bag5head{
+    text-align: center;
+}
+.bag5head h2{
+    font-weight: 600;
+}
+.bag5head h1{
+    font-weight: 800;
+    color: #ff4700;
+}
+.scroll{
+    padding: 30px;
+}
+
+.scroll a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 55px;
+    border: 1px solid black;
+    background-color: #ff4700;
+    box-shadow: 3px 3px 0px black;
+}
+.scroll a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 0px #ff4700;
+
+}
+
+.scroll .card img{
+    width: 300px;
+}
+.scroll .card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.scrolling-wrapper{
+    display: flex;
+    gap: 60px;
+    overflow-x: auto;
+}
+.scrolling-wrapper .card{
+    min-width: 18rem;
+}
+.scrolling-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+
